@@ -17,43 +17,37 @@ This project is a conversational AI application that allows users to ask questio
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/YourRepoName.git](https://github.com/YourUsername/YourRepoName.git)
-    cd YourRepoName
+    git clone [https://github.com/priyagarg-01/Chatbot.git](https://github.com/priyagarg-01/Chatbot.git)
+    cd Chatbot
     ```
 
 2.  **Install the required libraries:**
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: You'll need to create a `requirements.txt` file by running `pip freeze > requirements.txt` in your project environment.)*
+   
 
 3.  **Run the Streamlit application:**
     ```bash
     streamlit run app.py
     ```
-    *(Note: Assuming your main application file is named `app.py`.)*
+    
 
 ### How to Use
 
 1.  Upload a PDF document using the file uploader on the sidebar.
-2.  Wait for the "Processing done!" message.
+2.  Wait for the processing.
 3.  Type your question in the chat box and press Enter.
 4.  The chatbot will retrieve the relevant information and provide an answer.
 
-### Demo
-
-*(Optional: Add a screenshot or a short GIF here to visually show how the chatbot works. This is highly recommended for user engagement.)*
 
 ### Technologies Used
 
 -   **Python**
 -   **Streamlit**
--   **LangChain / Haystack** *(Choose the one you used, or list the specific libraries for RAG)*
--   **Faiss / ChromaDB** *(Specify the vector store you used)*
--   **Hugging Face Models** *(If you used a local LLM or Sentence Transformer model)*
+-   **LangChain / Haystack** 
+-   **ChromaDB** 
+-   **Hugging Face Models** 
 
-### License
-
-This project is licensed under the MIT License.
 
 ---

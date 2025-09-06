@@ -1,0 +1,32 @@
+# Core LLM & Embeddings
+openai>=1.30.0          # OpenAI API for chat completions
+transformers>=4.42.0    # For HuggingFace pipelines & models
+sentence-transformers>=2.2.2  # Embedding models like all-MiniLM-L6-v2
+
+# LangChain Ecosystem
+langchain>=0.2.3
+langchain-community>=0.2.3
+langchain-core>=0.2.3
+langchainhub>=0.1.15
+
+# Vector Database
+chromadb>=0.5.0
+
+# Document Loaders & Splitters
+pypdf>=4.0.0            # For reading PDFs
+langchain-text-splitters>=0.2.0
+
+# Hybrid Search (BM25)
+rank-bm25>=0.2.2
+
+# Reranking Models
+transformers[torch]>=4.42.0  # Torch backend for rerankers
+
+# Utilities
+python-dotenv>=1.0.0    # For environment variables
+torch>=2.2.0            # Required for HuggingFace & reranking
+numpy>=1.26.4
+tqdm>=4.66.1            # For progress bars
+
+# Optional but recommended for speed
+faiss-cpu>=1.7.4        # Faster similarity search backend for embeddings

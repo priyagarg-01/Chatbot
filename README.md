@@ -2,7 +2,7 @@
 
 # 📄 PDF Q&A Chatbot
 
-### Project Description
+### Project Descriptions
 
 This project is a conversational AI application that allows users to ask questions about the content of any PDF document. It leverages a modern approach called **Retrieval-Augmented Generation (RAG)** to provide factual and accurate answers. The entire application, from the file upload to the chat interface, is built using **Streamlit**.
 
